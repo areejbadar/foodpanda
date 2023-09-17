@@ -1,0 +1,271 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.rider-banner {
+    display: inline-flex;
+    background-color: #d70f64;
+    color: White;
+    padding: 0 1rem;
+    height: 70px;
+    width: 1500px;
+    border: 2px solid transparent;
+    position: relative;
+    justify-content: center;
+    margin: 0px;
+}
+
+.text-pink {
+    display: inline-flex;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.svg-stroke-container {
+    display: inline-flex;
+    margin-bottom: 15px;
+    width: 35px;
+    height: 35px;
+    color: white
+}
+
+.banner-signup-btn {
+    background-color: #d70f64;
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 10px;
+
+}
+
+.signup-btn:hover {
+    background-color: white;
+    color: #d70f64;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1460px;
+    height: 70px;
+}
+
+.main {
+    display: inline-flex;
+    color: #d70f64;
+    margin-left: 30px;
+    margin-top: 0%;
+    padding: 0 1rem;
+}
+
+.text-box {
+    display: inline-flex;
+    padding: 0 1rem;
+    justify-content: center;
+    align-items: center;
+    float: center
+}
+
+.login-btn {
+    display: flex-end;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 40x;
+    border: 1px solid #d70f64;
+    background-color: white;
+    border-radius: 5px;
+    padding: 4px 11px;
+    margin: 10px;
+    transition: all 0.2s ease;
+}
+
+.login-btn::after {
+    transform: scale(0.96);
+}
+
+
+
+.signup-btn {
+    background-color: #d70f64;
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 4px;
+    width: 80px;
+    height: 32px;
+    margin: 10px;
+}
+
+.dropdown {
+    margin: 10px;
+    border: 1px solid transparent;
+}
+
+.svg {
+    border: 2px solid transparent;
+}
+
+@media screen and(min-width:960px) {
+    .text-box {
+        display: none;
+    }
+}
+
+.search-bar {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1500px;
+    margin-left: 100px;
+}
+
+.container {
+
+    margin: 30px ;
+    width: 1200px;
+    padding: 20px;
+    background-color: #fff;
+    
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 60px;
+} 
+.text-location {
+    font-size: x-large;
+    font-weight: lighter;
+    
+}
+.container-location{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding:15px;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder {
+    font-size: 32px;
+}
+
+#location-input {
+    width: 300px;
+    flex-grow: 2;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+.find-food-btn {
+    background-color: #d70f64;
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 4px;
+    width: 80px;
+    height: 32px;
+    margin: 10px;
+    TRANSFORM: SCALE(1.1);
+    transition: 0.25s ease-in-out
+}
+
+.find-food-btn:hover {
+    transition: 0.25s ease-in-out
+}
+
+/* button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #d70f64;
+        color: #fff;
+        border: none;
+        border-radius: 0 5px 5px 0;
+        cursor: pointer;
+    } */
+
+/* button:hover {
+        background-color: #ff4246;
+    } */
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+.picture {
+    display: flex;
+    justify-content: right;
+}
+
+/* .partner{
+        margin: 4rem 0;
+        position: relative;
+        } */
+.partner-head {
+    background-color: white;
+    height: 100px;
+    padding-top: 20px;
+    margin-left: 30px;
+
+
+}
+
+.partner {
+    background: url("https://images.deliveryhero.io/image/foodpanda/home-vendor-pk.jpg?width=2000&amp;height=1280");
+    z-index: -1px;
+    width: 1500px;
+    min-height: 400px;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+.top-up {
+    z-index: 5;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.12);
+    margin: 0 1rem;
+    border-radius: 10px;
+    margin-top: 22rem;
+    padding: 1rem;
+}
+
+.top-up button{
+    background-color: #d70f64;
+    color: white;
+    border: 1px solid white;
+    border-radius: 9px;
+    padding: 4px;
+    width: 100px;
+    height: 32px;
+    margin: 10px;
+}
+
+.othercountries p a{
+    color: grey;
+}

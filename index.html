@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>food panda</title>
+  <link rel="icon" href="./images/icon.png" type="icon">
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <nav class="top-banner">
+
+      <div class="show-banner show-rider-banner">
+        <div class="rider-banner pink-banner top-banner flex">
+          <div class="pink-banner__content ">
+            <svg class="svg-stroke-container" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+              <path style="fill:white" class="rider-icon__path"
+                d="M44.66,9.09,31.19,5.18a4.66,4.66,0,0,0-2.59,0L11,10.13a4.62,4.62,0,0,0-3.37,4.36s0,0,0,.07v4C4.51,21.9.1,27.21,0,31.91A10.57,10.57,0,0,0,0,33a5,5,0,0,0,2.69,4.08,5.66,5.66,0,0,0,2.64.65,13.73,13.73,0,0,0,4.27-1,7.73,7.73,0,0,0,3.7,5.55A5.41,5.41,0,0,0,16,43a17.66,17.66,0,0,0,5.93-1.66l1.16.58a4.66,4.66,0,0,0,2.07.48,4.55,4.55,0,0,0,1.26-.17l18.16-5.91A4.62,4.62,0,0,0,48,31.87V13.51A4.64,4.64,0,0,0,44.66,9.09Zm-33.35,2,9-2.52,13.18,3.83A3.62,3.62,0,0,1,36,15.86v5L26.28,24V18.37a2.56,2.56,0,0,0-1.92-2.44L11.17,12.1a2.85,2.85,0,0,0-1.45,0A3.64,3.64,0,0,1,11.31,11.11ZM4.79,36a4,4,0,0,1-2.14-3.89c.17-2.62,2.47-5.88,5-8.82V33a2.53,2.53,0,0,0,1.52,2.29l.39.18c0,.1,0,.21,0,.32C7.84,36.31,6.09,36.61,4.79,36Zm16,4.75c-2,.66-4.14,1-5.61.37a4.89,4.89,0,0,1-3-4.48v0l4.23,2,4.58,2.13Zm2-.31-6-2.78-4.58-2.13s0-.08,0-.12c.91-4.8,6.24-12.14,9.08-15.16a1,1,0,0,0-.42-1.68l-1.21-.41a1,1,0,0,0-1.07.28c-1.78,1.95-7.92,9.28-8.92,15.48,0,.14-.06.28-.07.41l0,0A1.51,1.51,0,0,1,8.69,33V22.13c1.64-1.81,3.26-3.43,4.38-4.62a1,1,0,0,0-.43-1.68l-1.2-.41a1,1,0,0,0-1.08.28c-.36.4-.95,1-1.67,1.74v-3a1.5,1.5,0,0,1,.62-1.14A1.74,1.74,0,0,1,10.37,13a1.79,1.79,0,0,1,.51.07l13.19,3.83a1.55,1.55,0,0,1,1.17,1.46V39.08a1.48,1.48,0,0,1-.72,1.26A1.84,1.84,0,0,1,22.8,40.45ZM47,31.87a3.6,3.6,0,0,1-2.7,3.46L26.11,41.24a3.25,3.25,0,0,1-1.35.1,1.41,1.41,0,0,0,.31-.14,2.49,2.49,0,0,0,1.21-2.12v-5.5L47,27.11Zm0-14.5-9.89,3.16V15.86a4.64,4.64,0,0,0-3.34-4.42L22.12,8.06l6.76-1.91a3.77,3.77,0,0,1,1-.14,3.55,3.55,0,0,1,1,.15l13.47,3.92A3.59,3.59,0,0,1,47,13.51Z">
+              </path>
+            </svg>
+            <div class="text-pink">
+              <h4>Do you need a business account?</h4>
+            </div><span>
+              <button class="banner-signup-btn"
+                data-redirect-url="https://corporate.foodpanda.pk/#signup-form/?utm_source=foodpanda&amp;utm_medium=website&amp;utm_campaign=PKcorporateSignUphomepagebanner&amp;utm_content=singupnow">Sign
+                up Now</button></span>
+          </div>
+          <div class="pink-banner__close-button close-button" data-testid="pink-banner__close-button"></div>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="main">
+        <img src="./image/foodpandaLogo.png" alt="logo" width="150px">
+
+      </div>
+      <div class="text-box">
+        <div><button type="button" class="login-btn" href="#">Login</button></div>
+        <div><button type="button" class="signup-btn" href="#">Sign up</button></div>
+
+        <div class="dropdown">
+          <a class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+            style="background-color: white; color: black;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#d70f64" class="bi bi-globe2"
+              viewBox="0 0 16 16">
+              <path
+                d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855-.143.268-.276.56-.395.872.705.157 1.472.257 2.282.287V1.077zM4.249 3.539c.142-.384.304-.744.481-1.078a6.7 6.7 0 0 1 .597-.933A7.01 7.01 0 0 0 3.051 3.05c.362.184.763.349 1.198.49zM3.509 7.5c.036-1.07.188-2.087.436-3.008a9.124 9.124 0 0 1-1.565-.667A6.964 6.964 0 0 0 1.018 7.5h2.49zm1.4-2.741a12.344 12.344 0 0 0-.4 2.741H7.5V5.091c-.91-.03-1.783-.145-2.591-.332zM8.5 5.09V7.5h2.99a12.342 12.342 0 0 0-.399-2.741c-.808.187-1.681.301-2.591.332zM4.51 8.5c.035.987.176 1.914.399 2.741A13.612 13.612 0 0 1 7.5 10.91V8.5H4.51zm3.99 0v2.409c.91.03 1.783.145 2.591.332.223-.827.364-1.754.4-2.741H8.5zm-3.282 3.696c.12.312.252.604.395.872.552 1.035 1.218 1.65 1.887 1.855V11.91c-.81.03-1.577.13-2.282.287zm.11 2.276a6.696 6.696 0 0 1-.598-.933 8.853 8.853 0 0 1-.481-1.079 8.38 8.38 0 0 0-1.198.49 7.01 7.01 0 0 0 2.276 1.522zm-1.383-2.964A13.36 13.36 0 0 1 3.508 8.5h-2.49a6.963 6.963 0 0 0 1.362 3.675c.47-.258.995-.482 1.565-.667zm6.728 2.964a7.009 7.009 0 0 0 2.275-1.521 8.376 8.376 0 0 0-1.197-.49 8.853 8.853 0 0 1-.481 1.078 6.688 6.688 0 0 1-.597.933zM8.5 11.909v3.014c.67-.204 1.335-.82 1.887-1.855.143-.268.276-.56.395-.872A12.63 12.63 0 0 0 8.5 11.91zm3.555-.401c.57.185 1.095.409 1.565.667A6.963 6.963 0 0 0 14.982 8.5h-2.49a13.36 13.36 0 0 1-.437 3.008zM14.982 7.5a6.963 6.963 0 0 0-1.362-3.675c-.47.258-.995.482-1.565.667.248.92.4 1.938.437 3.008h2.49zM11.27 2.461c.177.334.339.694.482 1.078a8.368 8.368 0 0 0 1.196-.49 7.01 7.01 0 0 0-2.275-1.52c.218.283.418.597.597.932zm-.488 1.343a7.765 7.765 0 0 0-.395-.872C9.835 1.897 9.17 1.282 8.5 1.077V4.09c.81-.03 1.577-.13 2.282-.287z" />
+            </svg>
+            En
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">English</a></li>
+
+          </ul>
+        </div>
+        <div class="svg">
+
+          <svg aria-hidden="true" focusable="false" class="fl-brand-primary" width="24" height="24" viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill="#d70f64" clip-rule="#d70f64"
+              d="M12.0021 2C14.5418 2 16.4241 3.6512 16.5538 6.15854H19.8491C20.4014 6.15854 20.8491 6.60625 20.8491 7.15854C20.8491 7.20585 20.8457 7.25311 20.8391 7.29996L19.1248 19.1414C19.0544 19.6341 18.6325 20 18.1348 20H5.86942C5.37176 20 4.94984 19.6341 4.87947 19.1414L3.16518 7.29996C3.08707 6.75322 3.46697 6.24669 4.0137 6.16859C4.06055 6.16189 4.10781 6.15854 4.15513 6.15854L7.36129 6.16397C7.49108 3.65663 9.46248 2 12.0021 2ZM17.5607 16.25H6.44235C6.22143 16.25 6.04235 16.4291 6.04235 16.65C6.04235 16.669 6.04369 16.6879 6.04638 16.7067L6.25397 18.1567C6.28217 18.3537 6.45092 18.5 6.64993 18.5H17.3533C17.5523 18.5 17.7211 18.3537 17.7492 18.1566L17.9567 16.7066C17.988 16.488 17.836 16.2853 17.6174 16.254C17.5986 16.2513 17.5797 16.25 17.5607 16.25ZM18.8109 7.65854H5.19233C4.97142 7.65854 4.79233 7.83762 4.79233 8.05854C4.79233 8.32251 4.79367 8.09637 4.79635 8.11511L5.71793 14.4066C5.74609 14.6036 5.91486 14.75 6.11391 14.75H17.8891C18.0882 14.75 18.2569 14.6036 18.2851 14.4066L19.2069 8.11513C19.2381 7.89643 19.0862 7.69381 18.8675 7.66256C18.8487 7.65988 18.8298 7.65854 18.8109 7.65854ZM12.0021 3.40323C10.4163 3.40323 9.15495 4.32251 8.91234 5.80175C8.88507 5.96802 8.98943 6.12701 9.15495 6.15854C9.17377 6.16212 9.19289 6.16392 9.21204 6.1639L14.7134 6.15847C14.8772 6.15843 15.0099 6.02566 15.0099 5.86189C15.0099 5.84361 14.9631 5.82209 15.0049 5.80742C14.655 4.32251 13.5918 3.40323 12.0021 3.40323Z">
+            </path>
+          </svg>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="search-bar">
+    <div class="container">
+      <span class="text-location">
+        <h4>It's the food and groceries you love,<br>delivered</h4>
+      </span>
+      <div class="container-location">
+        <form id="location-form">
+          <input type="text" id="location-input" placeholder="Enter your location">
+          <button class="find-food-btn" type="submit">Find food</button>
+        </form>
+      </div>
+    </div>
+
+
+
+    <picture class="picture">
+      <img alt="It's the food and groceries you love, delivered" class="bds-c-hero__image"
+        src="https://images.deliveryhero.io/image/foodpanda/homepage/refresh-hero-home-pk.png" width="700px">
+      </image>
+    </picture>
+  </section>
+  </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  <!-- partner -->
+  <section class="partner">
+    <div class="partner-head">
+      <h3>You prepare the food, we handle the rest</h3>
+    </div>
+
+    <!-- top-up -->
+    <div class="top-up">
+      <h5 class="modal-title">List your resturant or shop on foodpanda</h5>
+
+
+      <p>Would you like millions of new customers to enjoy your amazing food and groceries? So would we!<br>
+
+        It's simple: we list your menu and product lists online, help you process orders, pick them up, and deliver them
+        to hungry pandas – in a heartbeat!<br>
+
+        Interested? Let's start our partnership today!</p>
+
+      <button type="button" class="btn btn-primary">Get started</button>
+    </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <footer>
+          <div class="footer__disclaimer">
+            © 2023 foodpanda</div>
+        </span></div>
+        <hr style="color:grey">
+      <div class="footer__wrapper__bottom">
+        <div class="footer-homepage" data-no-turbolink="">
+          <div class="othercountries">
+            <p>
+              <a href="https://www.foodpanda.la">Laos</a> &nbsp; | &nbsp;
+              <a href="https://www.foodpanda.com.kh/">Cambodia</a> &nbsp; | &nbsp;
+              <a href="https://www.foodpanda.com.mm/">Myanmar</a> &nbsp; | &nbsp;
+              <a href="https://www.foodpanda.co.th/">Thailand</a> &nbsp; | &nbsp;
+              <a href="https://www.foodpanda.hk/">Hong Kong</a> &nbsp; | &nbsp;
+              <a href="https://www.foodpanda.com.tw">Taiwan</a> &nbsp; | &nbsp;
+              <a href="https://www.foodpanda.my/">Malaysia</a> &nbsp; | &nbsp;
+              <a href="https://www.foodpanda.ph/">Philippines</a> &nbsp; | &nbsp;
+              <a href="https://www.foodpanda.sg/">Singapore</a> &nbsp; | &nbsp;
+              <a href="https://www.foodpanda.com.bd/">Bangladesh</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
